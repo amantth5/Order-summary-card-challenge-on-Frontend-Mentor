@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+
+  background-size: contain;
+}
+.attribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.contanier {
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.illustrationimg {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  height: auto;
+}
+.order {
+  padding: 20px;
+  align-items: center;
+}
+.order h2 {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.order p {
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.plan {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+
+.price h5 {
+  padding-bottom: 2px;
+}
+.price p {
+  opacity: 0.7;
+}
+.musicimage {
+  padding-right: 10px;
+}
+.imageandprice {
+  display: flex;
+  align-items: center;
+}
+.changelink {
+  font-size: 12px;
+  color: hsl(245, 75%, 52%);
+}
+.proceedbutton {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 10px;
+
+  margin-bottom: 10px;
+}
+.proceedbutton:hover {
+  background-color: hsl(266, 85%, 46%);
+}
+.proceedbutton a {
+  color: white;
+  text-decoration: none;
+}
+.cancelbutton {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  color: white;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.cancelbutton a {
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+}
+@media (max-width: 479px) {
+  body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+
+    background-size: contain;
+  }
+  .contanier {
+    width: 375px;
+    height: 525px;
+    background-color: white;
+    border-radius: 10px;
+  }
+}
